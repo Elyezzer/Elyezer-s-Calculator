@@ -81,7 +81,7 @@ let calculadora = {
         switch (estado){
 
         case'inicializacao':
-            document.getElementById("display").innerText = 'Display';
+            document.getElementById("display").innerText = '...';
             estado='operando1';
         break;
 
